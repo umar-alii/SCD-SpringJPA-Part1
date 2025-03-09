@@ -1,0 +1,74 @@
+body {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-action {
+    margin-right: 5px;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.status-SCHEDULED {
+    background-color: #ffeeba;
+    color: #856404;
+}
+
+.status-CONFIRMED {
+    background-color: #b8daff;
+    color: #004085;
+}
+
+.status-IN_PROGRESS {
+    background-color: #d6d8d9;
+    color: #383d41;
+}
+
+.status-COMPLETED {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.status-CANCELED {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-RESCHEDULED {
+    background-color: #bee5eb;
+    color: #0c5460;
+}
+
+.status-NO_SHOW {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
+
+.container {
+    max-width: 1000px;
+}
